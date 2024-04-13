@@ -19,13 +19,15 @@ while True:
         player = 2
     print(f"{computer= }, {player= }")
     
-    if computer > player:
+    if computer == player:
+        print(f"{computer=} vs {player=}. Draw")
+    elif computer > player:
         if computer == SCISSORS:
             print(f"{computer=} vs {player=}. Player win")
         else:
             print(f"{computer=} vs {player=}. Computer win")
     else:
-        print(f"{computer=} vs {player=}. Draw")
+        print(f"{computer=} vs {player=}. Player win")
     
          
         
