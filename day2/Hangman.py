@@ -9,7 +9,7 @@ import random
 chosen_word = random.choice(word_list)
 
 #### testing code
-# print(f'Pssst, the solution is {chosen_word}.')
+print(f'Pssst, the solution is {chosen_word}.')
 
 ## prepare _ _ _ _ _ for WORD(chosen word)
 display = []
