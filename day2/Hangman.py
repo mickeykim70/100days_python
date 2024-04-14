@@ -1,11 +1,17 @@
 # Hangman
 
 # 1. preparing WORDs & STAGE
-word_list = ["ardvark", "baboon", "camel"]
-lives = 6  # set the LIFE
+from hangman_words import word_list
+from hangman_art import stages, logo
+import random
+
+LIVES = 6  # set the LIFE
+END_OF_GAME = False
+
+print(logo)
 
 # 2. WORD for UNDERLINE
-import random
+
 chosen_word = random.choice(word_list)
 
 #### testing code
@@ -18,11 +24,15 @@ for _ in range(word_length):
     display.append('_')    
 
 # 3. asking players to GUESS
-end_of_game = False
-while not end_of_game:
+
+while not END_OF_GAME:
     guess = input("\nGuess a letter: ").lower()
 
 # 4. GUESS in WORD ???
+    # repeating tries warning
+    if guess in display:
+        print(f"You've already guessed {guess}")
+
     ## replace the letter in THE POSITION
     ##  a _ _ l _
     for position in range(word_length): # to assign ONE character to letter 
@@ -36,11 +46,16 @@ while not end_of_game:
         
     # END_GAME check(PLAYER LOOSE):    
     if guess not in chosen_word:
-        lives -= 1   # life -= 1
-        if lives == 0:
-            end_of_game = True
+        LIVES -= 1   # life -= 1
+        # Wrong guess!
+        print(f"You guessed {guess}, that's not in the word. You lose a life. {LIVES} left.")
+        
+        if LIVES == 0:
+            END_OF_GAME = True
             print("You lose.")
             print(f"{chosen_word= }")
+            
+        
 
     # Join all the elements in the list and turn it into a STRING.
     print(f"{' '.join(display)}")
@@ -48,7 +63,8 @@ while not end_of_game:
      
     # END_GAME check(PLAYER WIN): underline is still in WORD??
     if "_" not in display:
-        end_of_game = True
+        END_OF_GAME = True
         print("You win")
 
-
+    # printing stages ascii
+    print(stages[LIVES])
