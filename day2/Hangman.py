@@ -15,13 +15,14 @@ print(logo)
 chosen_word = random.choice(word_list)
 
 #### testing code
-print(f'Pssst, the solution is {chosen_word}.')
+# print(f'Pssst, the solution is {chosen_word}.')
 
 ## prepare _ _ _ _ _ for WORD(chosen word)
 display = []
 word_length = len(chosen_word)
 for _ in range(word_length):
-    display.append('_')    
+    display.append('_')
+print(f"{' '.join(display)}")
 
 # 3. asking players to GUESS
 
@@ -53,9 +54,7 @@ while not END_OF_GAME:
         if LIVES == 0:
             END_OF_GAME = True
             print("You lose.")
-            print(f"{chosen_word= }")
-            
-        
+            print(f"{chosen_word= }")       
 
     # Join all the elements in the list and turn it into a STRING.
     print(f"{' '.join(display)}")
