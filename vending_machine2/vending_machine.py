@@ -32,13 +32,14 @@ resources = {
     "coffee": 100,
 }
 
+
 # Declare Global variables and Constants
 
 is_machine_on = True
 profit = 0
 
 
-def resource_is_sufficient(order_ingredients):
+def is_resources_sufficient(order_ingredients):
     for ingredient in order_ingredients:
         if order_ingredients[ingredient] > resources[ingredient]:
             print(f"Sorry. {ingredient} is not enough.")
@@ -56,7 +57,7 @@ def adding_coins():
     return total
 
 
-def money_is_correct(received_money, chosen_menu_cost):
+def is_money_correct(received_money, chosen_menu_cost):
     if received_money >= chosen_menu_cost:
         changes = round(received_money - chosen_menu_cost, 2)
         print(f"Here is ${changes} in change.")
@@ -71,6 +72,7 @@ def money_is_correct(received_money, chosen_menu_cost):
 def make_coffee(beverage_name, beverage_ingredients):
     for ingredient in beverage_ingredients:
         resources[ingredient] -= beverage_ingredients[ingredient]
+
     print(f"Enjoy your {beverage_name}.")
 
 
@@ -89,10 +91,10 @@ while is_machine_on:
     else:
         chosen_menu = MENU[choice]
         # check resources (sufficient) every order
-        if resource_is_sufficient(chosen_menu['ingredients']):
+        if is_resources_sufficient(chosen_menu['ingredients']):
             # check inserted money is sufficient
             inserted_coins = adding_coins()
-            if money_is_correct(inserted_coins, chosen_menu['cost']):
+            if is_money_correct(inserted_coins, chosen_menu['cost']):
                 make_coffee(choice, chosen_menu['ingredients'])
 
 
