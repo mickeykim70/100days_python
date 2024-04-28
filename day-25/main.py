@@ -1,29 +1,18 @@
-# with open("weather_data.csv", mode="r") as file:
-#     weather_data = file.readlines()
-#     weathers = []
-#     for weather in weather_data:
-#         weathers.append(weather.split(","))
-# print(weathers[0])
+import pandas
 
-# import csv
-#
-# with open("weather_data.csv") as datafile:
-#     data = csv.reader(datafile)
-#
-#     temperatures = []
-#     for datum in data:
-#         if datum[1] != "temp":
-#             temperatures.append(int(datum[1]))
-#
-#     print(temperatures)
+data = pandas.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
 
-import pandas as pd
+gray_squirrels = data[data["Primary Fur Color"] == "Gray"]
+gray_squirrels_counts = len(gray_squirrels)
+cinnamon_squirrels = data[data["Primary Fur Color"] == "Cinnamon"]
+cinnamon_squirrels_counts = len(cinnamon_squirrels)
+black_squirrels = data[data["Primary Fur Color"] == "Black"]
+black_squirrels_counts = len(black_squirrels)
 
-weather = pd.read_csv("weather_data.csv")
-print(weather)
-print(weather["temp"])
+data_dict = {
+    "Fur_color": ["gray", "cinnamon", "black"],
+    "count": [gray_squirrels_counts, cinnamon_squirrels_counts, black_squirrels_counts]
+}
 
-
-
-
-
+df = pandas.DataFrame(data_dict)
+df.to_csv("squirral count.csv")
