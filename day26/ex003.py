@@ -1,0 +1,9 @@
+with open("weather_C.txt") as f:
+    weather_c1 = f.readlines()
+    weather_c = dict(weather_c1)
+print(weather_c)
+# ## weather_c = {"Monday": 12, "Tuesday": 14, "Wednesday": 15, "Thursday": 14, "Friday": 21, "Saturday": 22, "Sunday": 24}
+# weather_f = {day:temp*9/5+32 for (day, temp) in weather_c.items()}
+#
+# print(weather_c.items())
+# print(weather_f.items())
