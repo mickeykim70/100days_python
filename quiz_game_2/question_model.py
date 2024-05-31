@@ -4,10 +4,5 @@ class Question():
         self.text = q_text
         self.answer = q_answer
         
-        
-new_q = Question("df","false")
-    
 
-        
-print(new_q.text)
 
