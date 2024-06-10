@@ -1,5 +1,3 @@
-
-
 import turtle
 import pandas as pd
 
