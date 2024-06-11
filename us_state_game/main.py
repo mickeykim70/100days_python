@@ -24,6 +24,7 @@ while len(corrected_states) < len(states_list):
 
     if user_input == "Exit":
         left_states = []
+
         for state in states_list:
             if state not in corrected_states:
                 left_states.append(state)
