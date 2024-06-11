@@ -38,13 +38,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\us_state_game\state_to_learn.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\us_state_game\states_to_learn.csv">
           <value>
             <Attribute>
