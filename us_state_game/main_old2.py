@@ -23,8 +23,11 @@ while len(corrected_states) < len(states_list):
                                   "What's another states name? ").title()
 
     if user_input == "Exit":
+        left_states = []
 
-        left_states = [state for state in states_list if state not in corrected_states]
+        for state in states_list:
+            if state not in corrected_states:
+                left_states.append(state)
 
         will_study_states = pd.DataFrame(left_states)
         will_study_states.to_csv("states_to_learn.csv")
