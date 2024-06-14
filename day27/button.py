@@ -11,7 +11,7 @@ def click_me():
     my_label.config(text=i)
 
 #Label
-my_label = tk.Label(text='Hello World', font=('Arial', 15))
+my_label = tk.Label(text='Hello World')
 my_label.grid(column=0, row=0)
 my_label.config(padx=50, pady=50)
 
