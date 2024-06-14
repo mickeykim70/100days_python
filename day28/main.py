@@ -19,7 +19,7 @@ def reset_timer():
     window.after_cancel(timer)
     canvas.itemconfig(timer_text, text="00:00")
     label_timer.config(text="timer")
-    label_checkmark.config(text=" ")
+    label_checkmark.config(text="")
     global reps
     reps = 0
 
@@ -59,7 +59,7 @@ def count_down(count):
         marks = ""
         work_sessions = math.floor(reps / 2)
         for _ in range(work_sessions):
-            marks += "✔"
+            marks += "P"
         label_timer.config(text=marks)
 
 
@@ -87,7 +87,7 @@ button_start.grid(column=0, row=2)
 button_reset = tk.Button(text="Reset", highlightthickness=0, command=reset_timer)
 button_reset.grid(column=2, row=2)
 
-label_checkmark = tk.Label(text="✔", foreground=GREEN, background=YELLOW)
+label_checkmark = tk.Label(text="P", foreground=GREEN, background=YELLOW)
 label_checkmark.grid(column=1, row=3)
 
 window.mainloop()
