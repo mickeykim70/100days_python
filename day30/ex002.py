@@ -7,7 +7,7 @@ facebook_posts = [{'Likes': 21, 'Comments': 2},
 
 total_likes = 0
 
-#TODO: Catch the KeyError exception
+
 for post in facebook_posts:
     try:
         total_likes += post['Likes']
