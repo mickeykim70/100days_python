@@ -1,5 +1,7 @@
 import requests
 
+#https://api.openweathermap.org/data/2.5/weather?q=London,UK&appid=6c392caaec6bbdf7bee6b0415362271e
+
 OWM_Endpoint = 'https://api.openweathermap.org/data/2.5/onecall'
 OWM_Endpoint1 = 'http://api.openweathermap.org/data/2.5/forecast'
 api_key = "6c392caaec6bbdf7bee6b0415362271e"
@@ -11,7 +13,7 @@ weather_params = {
 }
 
 
-response = requests.get(OWM_Endpoint1, params=weather_params)
+response = requests.get(OWM_Endpoint, params=weather_params)
 response.raise_for_status()
 weather_data = response.json()
 weather_slice = weather_data['list'][:12]
