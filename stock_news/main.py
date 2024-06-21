@@ -5,7 +5,7 @@ COMPANY_NAME = "Tesla Inc"
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
-STOCK_API_KEY = '5H988QQWKJGNE52O'    # https://www.alphavantage.co/
+alphavantage_API = "M6R8N3E6GJLGCWPN"   # https://www.alphavantage.co/
 
 
     ## STEP 1: Use https://www.alphavantage.co/documentation/#daily
@@ -13,20 +13,36 @@ STOCK_API_KEY = '5H988QQWKJGNE52O'    # https://www.alphavantage.co/
 # ``and the day before yesterday then print("Get News").
 
 
-#TODO 1. - Get yesterday's closing stock price. Hint: You can perform list comprehensions on Python dictionaries. e.g. [new_value for (key, value) in dictionary.items()]
+#Get yesterday's closing stock price
 stock_params = {
     "function": "TIME_SERIES_DAILY",
     "symbol": STOCK_NAME,
-    "apikey": STOCK_API_KEY,
+    "apikey": alphavantage_API,
 }
 
-response = requests.get(STOCK_ENDPOINT, params=stock_params)
+response_alphavantage = requests.get(STOCK_ENDPOINT, params=stock_params)
 
-print(response.json())
+data = response_alphavantage.json()
+print(data)
 
-#TODO 2. - Get the day before yesterday's closing stock price
+stock_price_list = [(key, value) for (key, value) in data.items()]
 
-#TODO 3. - Find the positive difference between 1 and 2. e.g. 40 - 20 = -20, but the positive difference is 20. Hint: https://www.w3schools.com/python/ref_func_abs.asp
+# for i in range(len(stock_price)):
+#     print(stock_price[i][1]['4. close'])
+#
+# yesterday_data = stock_price_list[0][1]
+# yesterday_closing_price = yesterday_data['4. close']
+# print(yesterday_closing_price)
+# #Get the day before yesterday's closing stock price
+#
+# the_day_before_yesterday_data = stock_price_list[1][1]
+# the_day_before_yesterday_data_closing_price = the_day_before_yesterday_data['4. close']
+# print(the_day_before_yesterday_data_closing_price)
+#
+#
+# #Find the positive difference between 1 and 2.
+# difference = abs(float(yesterday_closing_price) - float(the_day_before_yesterday_data_closing_price))
+# print(difference)
 
 #TODO 4. - Work out the percentage difference in price between closing price yesterday and closing price the day before yesterday.
 
