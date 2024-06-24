@@ -5,16 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c50606c-3d18-4124-be85-a9fbf7c8e2f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/day38/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day40/contact_me.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day40/hobbies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day40/img/cat-modified.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day40/img/cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day40/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day40/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day43/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day43/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44/images/chillies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44/images/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44/images/computer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44/images/mountain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day44/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python_studty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_studty.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day40/contact-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/day40/contact-me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day40/hobbies.html" beforeDir="false" afterPath="$PROJECT_DIR$/day40/hobbies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day40/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/day40/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +33,7 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -43,50 +51,55 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "mickeykim70"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mickeykim70&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/mickeykim70/100days_python.git",
-    "accountId": "bf83b504-db69-4847-90ec-023c3fc48c26"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mickeykim70/100days_python.git&quot;,
+    &quot;accountId&quot;: &quot;bf83b504-db69-4847-90ec-023c3fc48c26&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2i68sSHHT72gAqGes8LujCuBXvG" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.rain_alert.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.tools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.contact-me.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rain_alert.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\STUDY\day44\images" />
+      <recent name="D:\STUDY\day44" />
       <recent name="D:\STUDY\100days_python\day40\img" />
     </key>
   </component>
@@ -109,6 +122,13 @@
       <workItem from="1718799876381" duration="2307000" />
       <workItem from="1718976555746" duration="4692000" />
       <workItem from="1719034108786" duration="7153000" />
+      <workItem from="1719065571781" duration="4658000" />
+      <workItem from="1719104159003" duration="3818000" />
+      <workItem from="1719111126777" duration="1374000" />
+      <workItem from="1719140974997" duration="11123000" />
+      <workItem from="1719192154471" duration="1232000" />
+      <workItem from="1719202371744" duration="99000" />
+      <workItem from="1719202656925" duration="3784000" />
     </task>
     <servers />
   </component>

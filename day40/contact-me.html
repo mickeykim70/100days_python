@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>My Contact</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <h1>My Contact Details</h1>
+    <h3>My Contact Details</h3>
     <p>My Address</p>
     <p>010-2222-3333</p>
     <p>myemail@myEmail.com</p>
+
+    <form class="" action="mailto:info@myemail.com" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="yourName" value=""><br>
+        <label>Email:</label>
+        <input type="email" name="yourMail" value=""><br>
+        <label>Message:</label>
+        <textarea name="message" rows="10" cols="30"></textarea><br>
+        <input type="submit" name="">
+    </form>
 </body>
 </html>
