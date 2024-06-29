@@ -4,24 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c50606c-3d18-4124-be85-a9fbf7c8e2f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/day40/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day43/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day43/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44/images/chillies.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44/images/cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44/images/computer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44/images/mountain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day44/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_studty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_studty.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="4c50606c-3d18-4124-be85-a9fbf7c8e2f1" name="Changes" comment="html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day40/contact-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/day40/contact-me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day40/hobbies.html" beforeDir="false" afterPath="$PROJECT_DIR$/day40/hobbies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day40/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/day40/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day45/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day45/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day45/website.html" beforeDir="false" afterPath="$PROJECT_DIR$/day45/website.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +49,9 @@
     &quot;accountId&quot;: &quot;bf83b504-db69-4847-90ec-023c3fc48c26&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -98,6 +87,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\STUDY\day45" />
       <recent name="D:\STUDY\day44\images" />
       <recent name="D:\STUDY\day44" />
       <recent name="D:\STUDY\100days_python\day40\img" />
@@ -128,16 +118,50 @@
       <workItem from="1719140974997" duration="11123000" />
       <workItem from="1719192154471" duration="1232000" />
       <workItem from="1719202371744" duration="99000" />
-      <workItem from="1719202656925" duration="3784000" />
+      <workItem from="1719202656925" duration="7151000" />
+      <workItem from="1719232223201" duration="5831000" />
+      <workItem from="1719241138711" duration="479000" />
+      <workItem from="1719287926028" duration="3000" />
     </task>
+    <task id="LOCAL-00001" summary="html">
+      <option name="closed" value="true" />
+      <created>1719213707798</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719213707799</updated>
+    </task>
+    <task id="LOCAL-00002" summary="html">
+      <option name="closed" value="true" />
+      <created>1719213715687</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719213715687</updated>
+    </task>
+    <task id="LOCAL-00003" summary="html">
+      <option name="closed" value="true" />
+      <created>1719213763701</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719213763701</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="html333" />
+    <MESSAGE value="html" />
+    <option name="LAST_COMMIT_MESSAGE" value="html" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_studty$main.coverage" NAME="main Coverage Results" MODIFIED="1718981282104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100days_python/day37" />
     <SUITE FILE_PATH="coverage/100days_python$main.coverage" NAME="main Coverage Results" MODIFIED="1719038026477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day38" />
+    <SUITE FILE_PATH="coverage/STUDY$main.coverage" NAME="main Coverage Results" MODIFIED="1719237454361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day45" />
     <SUITE FILE_PATH="coverage/python_studty$rain_alert.coverage" NAME="rain_alert Coverage Results" MODIFIED="1718800499469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100days_python/openweathermap" />
   </component>
 </project>
