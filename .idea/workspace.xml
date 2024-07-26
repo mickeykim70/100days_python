@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c50606c-3d18-4124-be85-a9fbf7c8e2f1" name="Changes" comment="html">
-      <change afterPath="$PROJECT_DIR$/day48/interaction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day48/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day48/naver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day48/upcoming_events.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello_flask/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello_flask/deco.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello_flask/hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coffee_machine/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python_studty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_studty.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -50,12 +44,12 @@
     &quot;assignee&quot;: &quot;mickeykim70&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/mickeykim70/100days_python.git&quot;,
-    &quot;accountId&quot;: &quot;e8ed548d-096c-4235-8cc9-1ffcbaaa3fd4&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mickeykim70/100days_python.git",
+    "accountId": "bf83b504-db69-4847-90ec-023c3fc48c26"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.txt" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -74,33 +68,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.contact-me.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;Python.deco.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hello.executor&quot;: &quot;Run&quot;,
-    &quot;Python.interaction.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.naver.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rain_alert.executor&quot;: &quot;Run&quot;,
-    &quot;Python.upcoming_events.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.contact-me.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "Python.deco.executor": "Run",
+    "Python.hello.executor": "Run",
+    "Python.interaction.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.naver.executor": "Run",
+    "Python.rain_alert.executor": "Run",
+    "Python.upcoming_events.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.idesettings.quicklists",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\STUDY\day45" />
@@ -174,6 +168,7 @@
       <workItem from="1719670975236" duration="2755000" />
       <workItem from="1719712399859" duration="17880000" />
       <workItem from="1719796615705" duration="1172000" />
+      <workItem from="1721999332281" duration="3782000" />
     </task>
     <task id="LOCAL-00001" summary="html">
       <option name="closed" value="true" />
@@ -216,9 +211,10 @@
     <SUITE FILE_PATH="coverage/STUDY_HARD$interaction.coverage" NAME="interaction Coverage Results" MODIFIED="1719730701126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day48" />
     <SUITE FILE_PATH="coverage/STUDY_HARD$upcoming_events.coverage" NAME="upcoming_events Coverage Results" MODIFIED="1719727451886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day48" />
     <SUITE FILE_PATH="coverage/STUDY_HARD$deco.coverage" NAME="deco Coverage Results" MODIFIED="1719746832757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hello_flask" />
-    <SUITE FILE_PATH="coverage/100days_python$main.coverage" NAME="main Coverage Results" MODIFIED="1719038026477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day38" />
+    <SUITE FILE_PATH="coverage/100days_python$main.coverage" NAME="main Coverage Results" MODIFIED="1722001443993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coffee_machine" />
     <SUITE FILE_PATH="coverage/STUDY_HARD$naver.coverage" NAME="naver Coverage Results" MODIFIED="1719729326717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day48" />
     <SUITE FILE_PATH="coverage/STUDY_HARD$hello.coverage" NAME="hello Coverage Results" MODIFIED="1719751043549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hello_flask" />
+    <SUITE FILE_PATH="coverage/100days_python$hello.coverage" NAME="hello Coverage Results" MODIFIED="1722000217750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hello_flask" />
     <SUITE FILE_PATH="coverage/STUDY$main.coverage" NAME="main Coverage Results" MODIFIED="1719237454361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day45" />
     <SUITE FILE_PATH="coverage/python_studty$rain_alert.coverage" NAME="rain_alert Coverage Results" MODIFIED="1718800499469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100days_python/openweathermap" />
   </component>
